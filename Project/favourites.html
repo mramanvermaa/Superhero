@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="./css/favourites.css" />
+
+  
+  <title>Superheroes hunting World</title>
+</head>
+
+<body>
+  <!-- Navigation Menu bar With Title -->
+  <nav>
+    <div class="container-nav">
+      <div id="navbar-brand" >
+        
+        <h1>Superheroes</h1>
+        <div class="nav-item">
+          <a href="./index.html">
+            <i class="fas fa-mask"></i>
+            Home</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="fav-section">
+    <div class="text-center p-5" id="title">
+      <h1 class="head">Here Is My Favourite Superheroes!</h1>
+    </div>
+
+    <div class="container-data">
+      <!-- container where superohero will show according to favourites -->
+      <div class="mx-auto justify-content-evenly row" id="superhero-list">
+        <template id="canvas">
+          <div  id="superhero">
+            <!-- basic info -->
+            <div id="info">
+              <div id="img-cont">img</div>
+              <div id="name">Name -</div>
+              <div id="id">ID</div>
+              <div id="comic">Comics</div>
+              <div id="series">series</div>
+              <div id="stories">stories</div>
+              <div c id="buttons">
+                <!-- button to remove from favourites -->
+                <button class="btn btn-outline-primary btn-sm" id="fav">
+                  Remove
+                </button>
+                <!-- button for directing to about page -->
+                <button class="btn btn-primary btn-sm" id="learn-more">
+                  view more
+                </button>
+              </div>
+            </div>
+            <br />
+            <br />
+          </div>
+        </template>
+      </div>
+    </div>
+  </section>
+
+  <!-- script for favourite js -->
+  <script src="./js/favourites.js"></script>
+</body>
+
+</html>

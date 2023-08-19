@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=PT+Sans:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=PT+Sans:ital,wght@1,700&display=swap');
+
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-size: 100% 100%;
+    overflow: scroll;
+    background-image: url('/images/favourite.jpg');
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+nav {
+
+    background: rgb(135, 135, 138);
+    background: linear-gradient(90deg, rgba(16, 17, 22, 0.914) 0%, rgba(79, 106, 155, 0.788) 52%, rgba(15, 19, 24, 0.633) 100%);
+
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(19, 18, 18);
+    display: flex;
+}
+
+.container-nav {
+    display: flex;
+    width: 100%;
+
+}
+
+#title {
+
+    display: flex;
+
+    justify-content: center;
+}
+
+#navbar-brand {
+
+    padding: 1%;
+    color: aliceblue;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.head {
+    background: rgb(4, 12, 12);
+    background: linear-gradient(90deg, rgba(21, 26, 53, 0.914) 0%, rgba(162, 163, 167, 0.788) 52%, rgba(20, 61, 110, 0.633) 100%);
+    margin: 1%;
+    padding: 0.5%;
+    text-align: center;
+    border-radius: 20px;
+    width: 40%;
+}
+
+a {
+    color: rgba(232, 236, 236, 0.911);
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.container-data {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#superhero-list {
+
+    width: 98%;
+    height: 100vh;
+    display: flex;
+    overflow: scroll;
+
+    justify-content: space-evenly;
+
+}
+
+#superhero-list::-webkit-scrollbar {
+    display: none;
+}
+
+#superhero {
+    margin-top: 2%;
+
+
+    display: flex;
+
+    flex-direction: row;
+
+    width: 20%;
+    height: 60vh;
+    flex-wrap: wrap;
+}
+
+#info {
+    background: rgb(201, 211, 241);
+    background: linear-gradient(90deg, rgba(201, 211, 241, 0.8323704481792717) 0%, rgba(144, 148, 231, 0.7175245098039216) 50%, rgba(163, 162, 232, 0.5830707282913166) 100%);
+    border: 2px solid rgb(0, 0, 0);
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    padding: 1%;
+    align-items: center;
+}
+
+#info:hover {
+    box-shadow: 0px 7px 50px 10px rgb(7, 1, 17);
+}
+
+#img-cont {
+    width: 100%;
+    height: 70%;
+    background-color: aliceblue;
+
+}
+
+#img-cont img {
+    width: 100%;
+    height: 100%;
+}
+
+#name,
+#id,
+#comic,
+#series,
+#stories {
+    color: #030303;
+}
+
+#buttons {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 8%;
+    padding: 0.5%;
+}
+
+#buttons button {
+    background-color: rgb(9, 9, 10);
+    color: white;
+    border: none;
+    width: 38%;
+    border-radius: 20px;
+}

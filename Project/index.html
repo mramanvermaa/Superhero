@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <script src="https://kit.fontawesome.com/c4d008f503.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Superheroes hunting World</title>
+</head>
+
+<body>
+
+    <div class="main">
+        <nav>
+            <h1>Welcome to Superhero World </h1>
+            <span> <a  href="./favourites.html">Your favourites</a> </span>
+        </nav>
+
+        <div class="section">
+            <h1></h1>
+        </div>
+
+        <div id="searchbar">
+
+            <form method="get" id="search-form">
+                <input type="search" name="searchHero" id="search-string" placeholder="Search super Hero here">
+            </form>
+
+        </div>
+
+        <div id="displayHeroSearchResults" class="results">
+            <h2 id="querySection"></h2>
+            <div id="superhero-list" class="hero-list">
+
+                <template id="canvas" class="canv">
+                    <div class="display-cards" id="c">
+
+
+                        <div id="superhero">
+                            <div id="info">
+                                <div id="img-cont">img</div>
+                                <div id="name">Name </div>
+                                <div id="id">ID</div>
+                                <div id="comic">Comics</div>
+                                <div id="series">series</div>
+                                <div id="stories">stories</div>
+
+                               
+                            </div>
+                        </div>
+                        <div id="buttons">
+                            <button id="fav" >
+                                Add to Favourite
+                            </button>
+
+                           
+                            <button id="learn-more">
+                                more details
+                            </button>
+                        </div>
+                    </div>
+                </template>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <script src="./js/app.js"></script>
+    
+</body>
+
+</html>
